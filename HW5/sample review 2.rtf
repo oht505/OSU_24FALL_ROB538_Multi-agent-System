@@ -1,0 +1,179 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\fswiss\fprq2\fcharset0 Liberation Sans{\*\falt Arial};}{\f5\froman\fprq2\fcharset0 Times-Roman{\*\falt Times New Roman};}{\f6\fnil\fprq2\fcharset0 Noto Sans CJK SC Regular;}{\f7\fnil\fprq2\fcharset0 FreeSans;}{\f8\fswiss\fprq0\fcharset128 FreeSans;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet{\s0\snext0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033 Normal;}
+{\s15\sbasedon0\snext16\sb240\sa120\keepn\dbch\af6\dbch\af7\afs28\loch\f4\fs28 Heading;}
+{\s16\sbasedon0\snext16\sl288\slmult1\sb0\sa140 Text Body;}
+{\s17\sbasedon16\snext17\sl288\slmult1\sb0\sa140\dbch\af8 List;}
+{\s18\sbasedon0\snext18\sb120\sa120\noline\i\dbch\af8\afs24\ai\fs24 Caption;}
+{\s19\sbasedon0\snext19\noline\dbch\af8 Index;}
+}{\*\generator LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2018\mo11\dy7\hr10\min51}{\printim\yr0\mo0\dy0\hr0\min0}}\deftab720
+\viewscale100
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn12240\pghsxn15840\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh15840\paperw12240\margl1440\margr1440\margt1440\margb1440\sectd\sbknone\sectunlocked1\pgndec\pgwsxn12240\pghsxn15840\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep}\pgndec\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b\rtlch \ltrch\loch\fs24\loch\f5
+Comments to author(s)}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+SUMMARY:}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+-Describe the paper in 2-3 sentences}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+This paper proposes algorithm for multiagent reinforcement learning. Specifically, the authors propose a Q-learning approach in which agents learn when it is necessary to observe the joint state space. By only observing the joint state space when necessary, and on all other occasions, choosing each agents actions based on its local state only, the authors can significantly reduce the complexity of the multiagent learning problem. Although previous approaches can achieve this, the key contribution claimed by the authors is that agents learn when to observe the joint state space based on the total future expected reward, rather than immediate rewards only.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+RELEVANCE:}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+- Is the work relevant to AAMAS 2011? For example, does the paper describe:}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Multiagent reinforcement learning is a significant and well }{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+recognized}{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+ area of research within the AAMAS community. This paper is thus highly relevant, and suitable for presentation at the conference.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+ORIGINALITY:}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+As discussed in the paper, there are now a significant number of existing reinforcement learning approaches that attempt to reduce the state space in MARL problems by considered joint states only when necessary.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+However this would appear to be the first such method that can learn when to observe the joint state based on future rewards, rather than immediate rewards only. To my knowledge, the authors appear to be honest about the extent of this contribution and give reasonable comparison with relevant approaches in the existing literature.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+I should say though, given the relative simplicity of the proposed algorithm, I am somewhat surprised that this has not been done before.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+SIGNIFICANCE}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+The ability to learn when to observe the joint state based on future rewards has the potential to greatly extend the potential applications of this time of algorithm. This fact is intuitively obvious, and is demonstrated by the empirical evidence presented in the paper. Moreover, the solution appears to be simple and elegant, to the extent that I am surprised that something similar has not been done before.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+That is not to say that solution is perfect --- there certainly is room for improvement. For example, as the authors point out, although their algorithm learns when it is necessary to observe the joint state space, agents still do not coordinate explicitly when such states occur. Convergence to a stable joint policy is therefore still not guaranteed, as is usually the case in such problems.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Also, the main algorithm assumes single agent policies can be }{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+learned}{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+ before joint learning occurs. As the authors state, this is not possible in all domains. The authors do suggest a simple fix to deal with such situations, but it would appear to require considering of all joint states from the onset, which will not scale well to problems consisting of a significant number of agents.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+TECHNICAL QUALITY}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+While I like the general approach, I have two significant criticisms about the paper.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+First, despite being almost a full column under the page limit, key technical details about the algorithm have been omitted. This would make it impossible to accurately implement the algorithm based on the paper's description alone. It also makes it difficult to assess the true time complexity and scaling properties of the algorithm.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+In particular, it would be useful if the authors could provide a mathematical description of the statistical tests used, rather than requiring the reader to look these up. More importantly, the authors should state exactly how these tests are applied to this particular problem.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Second, no evidence of the statistical significance of the empirical results is given. To be fair, the authors do state that the results are averaged over 50 independent runs, and assuming that all high-frequency variation in the graphs is due to noise, it is possible to make some informed judgements about the underlying performance trends and the differences between the algorithms. However, it this should not be left to the reader's judgement. Ideally, confidence intervals representing the standard error in the mean should be included in the graphs. If this is not possible without making the graphs unreadable then other statistical evidence should be supplied to support any claims made in the text.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+QUALITY OF PRESENTATION}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Overall, the standard of }{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+English}{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+ is good, the paper is easy to read and follows a logical structure, and the authors do a good job of motivating the research. One minor criticism is that Figures 4--6 are difficult to read in black and white print, and there are a few minor spelling mistakes noted below.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Also, as discussed above, certain technical details about the algorithm are missing. Given that the authors are still almost a full column under the page limit, these details really should be included.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Minor comments to the authors}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+------------------------------------------}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+I'm a little surprised you choose not the put 'learning' or 'reinforcement learning' somewhere in your title, as coordination does not necessary imply that there is uncertainty in the underlying problem. Obviously this is not that important. Its just an observation.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Section 3.1, 1st paragraph: "there state information" should probably be "their state information"}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Figure 2: Was this graph created using only one agent, two agents, or some other multiple?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Equation 4: w.r.t. to the last term --- Q(s',a'_k) is there a subscript missing for Q?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Given that you are still almost a full column under the page limit, It would be helpful if could give more technical details about Algorithm 1. In particular, I suggest you add the following details:}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+(1) It would be useful if you give mathematical definitions for the KS-test and Friedmann tests, rather than requiring the reader to look these up.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+(2) What is a 'safe' state and how is this }{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+initialized}{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+ before Line 3 in your algorithm.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+(3) It would appear that the condition of the if statement on line 10 will always be true. In which case, why is it necessary?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Section 3.2, last paragraph: "it is possibly to collect" should probably be, "it is possible to collect"}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+If you remove lines 8 to 10, I assume you should also remove the "end if" on lines 15 and 16?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+How does your algorithm work for more than two agents? Do you only test for pairwise dependencies or do you test for high-level interaction effects as well?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+What does LoC stand for, and exactly which algorithm does it refer to. You state that it is described in Section 2.3, but I cannot find the abbreviation there, and you discuss multiple algorithms in that section.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Section 4:}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Is e-greedy exploration used by all the algorithms you tested?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Also, you state here If agents collide, they remain in the same location. Which location is this? Do you mean the previous state before they selected the offending action, or the next state, in which case the agents get to occupy the same cell. In either case, I assume they only remain there for one time step, provided their next action does not also result in collision? This may seem like a minor point, but its good to be specific.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Here, you also state that you could not implement a form of virtual sensory input for LoC. Why not exactly? Moreover, w.r.t. to your alternative of creating a list of joint states, what criteria did you use to generate this list?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Figures 4--6: Make sure these work in black and white print.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe2052\dbch\af7\afs24\alang1081\loch\f3\fs24\lang1033\ql{\cf1\b0\rtlch \ltrch\loch\fs24\loch\f5
+Section 4, paragraph beginning "When three agents are present in the environment,": Here, and in the following paragraph, you refer to the numerical values 10.000, 3.000 and 166.375. I assume that rather than a '.' you mean to insert a comma? That is, the correct values should be 10,000; 3,000 and 166,375?}
+\par }
