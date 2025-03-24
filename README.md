@@ -4,4 +4,5 @@
 
 
 * Final Project
-[ROB538_ProjectPaper_ButlerOhWells.pdf](https://github.com/user-attachments/files/19415249/ROB538_ProjectPaper_ButlerOhWells.pdf)
+<img width="431" alt="image" src="https://github.com/user-attachments/assets/1626044f-919a-4702-92a9-0b023c1ccf33" />
+
